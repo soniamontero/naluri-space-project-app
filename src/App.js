@@ -16,7 +16,8 @@ const App = () => {
 
   return (
     <div className="app">
-      {pi}
+      <div>Sun circumference: {1392530 * pi}</div>
+      <div>Latest pi value: {pi}</div>
     </div>
   );
 }
